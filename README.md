@@ -6,7 +6,7 @@ Commands supported:
 
 ## Merge
 
-Merge `lmdb2` and `lmdb3` into `lmdb1` (create `lmdb1` if doesn't exists).
+Merge `lmdb2` and `lmdb3` into `lmdb1` (create `lmdb1` if it doesn't exist).
 Keys are overwritten.
 
 ```bash
@@ -17,7 +17,6 @@ cargo run --release -- merge -o /path/lmdb1 /path/lmdb2 /path/lmdb3
 
 ```bash
 cargo run --release -- count /path/lmdb1 /path /lmdb2 /path/lmdb3
-```
 ```
 
 Output:
